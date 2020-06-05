@@ -10,7 +10,7 @@ os.chdir(os.path.normpath(os.path.join(os.path.abspath(__file__), os.pardir)))
 
 setup(
     name='search-this',
-    version='0.3',
+    version='0.4.1',
     packages=['search_this'],
     include_package_data=True,
     license='GNU General Public License v3.0',

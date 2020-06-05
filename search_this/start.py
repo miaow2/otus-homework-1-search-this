@@ -3,7 +3,7 @@ import requests
 
 from bs4 import BeautifulSoup
 
-from utils import (
+from search_this.utils import (
     DuckDuckGoEngine, GoogleEngine, write_console, write_csv, write_json
 )
 
