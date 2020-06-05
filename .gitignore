@@ -1,0 +1,6 @@
+*.csv
+*.json
+__pycache__/
+build/
+dist/
+search_this.egg-info/
