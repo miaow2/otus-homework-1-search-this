@@ -67,7 +67,7 @@ pip install search-this
 
 ```
 $ search_this -h
-usage: search_this [-h] -q QUERY [-e {google,duck}] [-c COUNT] [-r] [-l {console,json,csv}]
+usage: search_this [-h] -q QUERY [-e {google,duck}] [-c COUNT] [-l {console,json,csv}]
 optional arguments:
   -h, --help            show this help message and exit
   -q QUERY, --query QUERY
