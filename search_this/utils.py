@@ -122,7 +122,7 @@ def write_csv(search):
     Запись результатов в csv файл
     """
     pwd = os.path.split(os.path.realpath(__file__))[0]
-    path = os.path.join(pwd, f"{search.original_query}.csv")
+    path = os.path.join(pwd, f"{search.original_query.replace(' ', '_')}.csv")
     with open(path, "w") as outfile:
         outfile_writer = csv.writer(outfile, delimiter=";", quotechar='"')
         outfile_writer.writerow(["Text", "URL"])
@@ -136,7 +136,7 @@ def write_json(search):
     Запись результатов в json файл
     """
     pwd = os.path.split(os.path.realpath(__file__))[0]
-    path = os.path.join(pwd, f"{search.original_query}.json")
+    path = os.path.join(pwd, f"{search.original_query.replace(' ', '_')}.json")
     with open(path, "w") as outfile:
         results = [{"text": x[0], "url": x[1]} for x in search.results]
         json.dump(results, outfile, indent=2, ensure_ascii=False)
