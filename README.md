@@ -3,8 +3,8 @@ OTUS Homework 1 search this
 
 # Оглавление
 
-- [Домашнее задание](#quick-start-guide)
-- [Описание](#scrapli-what-is-it)
+- [Домашнее задание](#homework)
+- [Описание](#guide)
 
 # Домашнее задание
 
