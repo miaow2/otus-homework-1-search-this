@@ -49,17 +49,11 @@ def process_args():
         help="Count of results. Default: 1.",
     )
     parser.add_argument(
-        "-r",
-        "--recursive",
-        action="store_true",
-        help="Add this to make recursive searching.",
-    )
-    parser.add_argument(
         "-l",
         "--logging",
         choices=("console", "json", "csv"),
         default="console",
-        help="Print information on the screen",
+        help="Information ouput. Default: console.",
     )
     return parser.parse_args()
 
