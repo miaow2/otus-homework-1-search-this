@@ -1,5 +1,5 @@
 OTUS Homework 1 search this
-=======
+===========================
 
 # Оглавление
 
@@ -21,8 +21,12 @@ OTUS Homework 1 search this
 4. уменьшение зависимости
 5. чистые функции
 6. цикломатическая сложность
+
+```
 python3 -m mccabe --min 5 module.py
 flake8 --max-complexity 5
+```
+
 7. понятные названия у переменных, функций, классов, модулей
 8. контекст ближе к коду (привязка к комитам, тикетам, комменты, документация, вики)
 9. разумное использование фишек python
@@ -54,15 +58,16 @@ flake8 --max-complexity 5
 DuckDuckGo работает быстро, но если слишком часто делать запросы, то DuckDuckGo банит на некоторое время.
 
 Установка
+
 ```
 pip install search-this
 ```
+
 Использование
+
 ```
 $ search_this -h
-usage: search_this [-h] -q QUERY [-e {google,duck}] [-c COUNT] [-r]
-                [-l {console,json,csv}]
-
+usage: search_this [-h] -q QUERY [-e {google,duck}] [-c COUNT] [-r] [-l {console,json,csv}]
 optional arguments:
   -h, --help            show this help message and exit
   -q QUERY, --query QUERY
